@@ -20,12 +20,13 @@ eureka:
 
 ---
 
+---
 spring:
-     profiles: prod
+  profiles: prod
 
 server:
   port: 6002
-  
+
 eureka:
   client:
     register-with-eureka: false
@@ -33,5 +34,5 @@ eureka:
     serviceUrl:
       defaultZone: htpp://${eureka.instance.hostname}:${server.port}/eureka
   instance:
-    hostname: localhost  
+    hostname: localhost
   
