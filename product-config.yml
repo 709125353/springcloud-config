@@ -10,7 +10,7 @@ server:
 
 spring:
   application:
-    name: product-prod-bus
+    name: product-prod
   profiles: prod
 
 eureka:
@@ -20,7 +20,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:6002/eureka
 emp:
-  name: zhangsan
+  name: zhangsan-bus
 ---
 server:
   port: 7002
@@ -28,7 +28,7 @@ server:
 
 spring:
   application:
-    name: product-dev-bus
+    name: product-dev
   profiles: dev
 
 eureka:
@@ -38,4 +38,4 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:6002/eureka
 emp:
-  name: lisi
+  name: lisi-bus
