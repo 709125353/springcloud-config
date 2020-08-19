@@ -10,7 +10,7 @@ server:
 
 spring:
   application:
-    name: product-prod
+    name: product-prod-bus
   profiles: prod
 
 eureka:
@@ -27,7 +27,7 @@ server:
 
 spring:
   application:
-    name: product-dev
+    name: product-dev-bus
   profiles: dev
 
 eureka:
