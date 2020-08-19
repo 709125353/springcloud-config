@@ -19,7 +19,8 @@ eureka:
     register-with-eureka: true
     serviceUrl:
       defaultZone: http://localhost:6002/eureka
-
+emp:
+  name: zhangsan
 ---
 server:
   port: 7002
@@ -36,3 +37,5 @@ eureka:
     register-with-eureka: true
     serviceUrl:
       defaultZone: http://localhost:6002/eureka
+emp:
+  name: lisi
